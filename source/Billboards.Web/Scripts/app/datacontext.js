@@ -13,7 +13,7 @@
 
                 // Create an array from the memo object
                 var underlyingArray = utils.mapMemoToArray(items);
-                logger.info('Fetched, filtered and sorted ' + underlyingArray.length + ' records');
+                //logger.info('Fetched, filtered and sorted ' + underlyingArray.length + ' records');
 
                 observableArray(underlyingArray);
             },
@@ -27,7 +27,7 @@
                     return memo;
                 }, {});
                 itemsToArray(items, results);
-                logger.success('received with ' + dtoList.length + ' elements');
+                //logger.success('received with ' + dtoList.length + ' elements');
                 return items;
             },
 
