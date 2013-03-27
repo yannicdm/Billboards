@@ -11,7 +11,7 @@ define('dataservice.lookup',
                    //cache
                }),
 
-               amplify.request.define('adresses', 'ajax', {
+               amplify.request.define('addresses', 'ajax', {
                    url: '/api/lookups/addresses',
                    dataType: 'json',
                    type: 'GET'
