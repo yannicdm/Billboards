@@ -17,13 +17,13 @@
                     $.when(
 
                         datacontext.billboards.getData({ results: data.billboards }),
-                        datacontext.adresses.getData({ results: data.adresses })
+                        datacontext.addresses.getData({ results: data.adresses })
                         )
 
                     .pipe(function () {
                         logger.success('Fetched data for: '
                            + '<div>' + data.billboards().length + ' billboards </div>'
-                       // + '<div>' + data.adresses().length + ' adresses </div>'
+                           + '<div>' + data.adresses().length + ' adresses </div>'
                        );
                     })
 

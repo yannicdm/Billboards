@@ -10,7 +10,7 @@
             Address = function () {
                 var self = this;
                 self.id = ko.observable();
-                self.addressLind = ko.observable;
+                self.addressLine = ko.observable;
                 self.adminDistrict = ko.observable;
                 self.countryRegion = ko.observable;
                 self.locality = ko.observable;
